@@ -183,7 +183,7 @@ button, input { font: inherit; color: inherit; }
   font-size: 16px;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
-  animation: pop 0.22s ease-out both;
+  animation: pop 0.22s ease-out backwards;
 }
 .msg.b {
   align-self: flex-start;
@@ -217,7 +217,7 @@ button, input { font: inherit; color: inherit; }
   width: auto;
   margin: 2px 6px -2px;
   filter: drop-shadow(0 6px 10px rgba(31, 37, 71, 0.15));
-  animation: pop 0.3s ease-out both;
+  animation: pop 0.3s ease-out backwards;
 }
 
 .result { display: flex; flex-direction: column; gap: 8px; }
@@ -281,7 +281,7 @@ button, input { font: inherit; color: inherit; }
   font-weight: 500;
   cursor: pointer;
   transition: background 0.12s, border-color 0.12s, transform 0.08s;
-  animation: pop 0.2s ease-out both;
+  animation: pop 0.2s ease-out backwards;
 }
 .chip:hover { background: #f3f5fb; border-color: #b9c2dc; }
 .chip:active { transform: scale(0.97); }
