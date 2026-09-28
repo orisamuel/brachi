@@ -1,0 +1,9 @@
+# local-only: raw generations, prompts, QA and helper scripts
+_art/
+_work/
+node_modules/
+.env
+.env.*
+*.key
+.DS_Store
+Thumbs.db

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ברכי · מחלקת ברכות של 42</title>
+  <meta name="description" content="עונים לברכי על כמה שאלות, בוחרים כמה רגש, והיא מתקתקת ברכת יום הולדת עם כרטיס. בלי עין הרע.">
+  <meta name="theme-color" content="#26335E">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="he_IL">
+  <meta property="og:title" content="ברכי · מחלקת ברכות של 42">
+  <meta property="og:description" content="כמה שאלות, כמה רגש, וברכת יום הולדת מתוקתקת עם כרטיס. ארבע דקות, בלי עין הרע.">
+  <meta property="og:url" content="https://orisamuel.github.io/brachi/">
+  <meta property="og:image" content="https://orisamuel.github.io/brachi/img/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" as="image" href="img/brachi/wave.webp">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <img class="avatar" src="img/brachi/avatar.webp" alt="" width="44" height="44">
+      <div class="who">
+        <h1>ברכי</h1>
+        <p class="status" id="status" aria-live="polite">מחלקת ברכות · 42</p>
+      </div>
+      <button class="icon-btn" id="restart" type="button" aria-label="ברכה חדשה" title="ברכה חדשה">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5a7 7 0 1 1-6.6 4.7l1.9.6A5 5 0 1 0 12 7v3L7.5 6 12 2z"/></svg>
+      </button>
+      <img class="logo" src="img/logo42-white.png" alt="42" width="30" height="32">
+    </header>
+
+    <main class="chat" id="chat">
+      <div class="bsd" aria-hidden="true">בס״ד</div>
+      <section class="hero" aria-label="ברכי">
+        <div class="porthole">
+          <img src="img/brachi/wave.webp" alt="ברכי: אישה חרדית מודרנית בבלייזר כחול, עם טאבלט, מנופפת לשלום" width="391" height="900">
+        </div>
+        <h2>ברכי</h2>
+        <p class="role">מנהלת מחלקת הברכות · 42</p>
+        <ul class="stats">
+          <li><b>4 דק׳</b><span>זמן ממוצע לברכה</span></li>
+          <li><b>1,284</b><span>ברכות שתוקתקו</span></li>
+          <li><b>3</b><span>חבילות טישו במלאי</span></li>
+        </ul>
+        <p class="fine">ברכי היא לא בינה מלאכותית. היא פשוט מאוד מסודרת.</p>
+      </section>
+    </main>
+
+    <footer class="composer" id="composer"></footer>
+  </div>
+  <noscript><p class="noscript">ברכי צריכה JavaScript כדי לעבוד. היא מתנצלת.</p></noscript>
+</body>
+</html>
